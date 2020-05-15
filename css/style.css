@@ -1,0 +1,207 @@
+@font-face {
+    font-family: europhonic;
+    src: url(../fonts/Europhonic.otf);
+}
+.font-europhonic {
+    font-family: europhonic;
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+.font-roboto-medium {
+    font-family: roboto-medium;
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.font-roboto-regular {
+    font-family: roboto-regular;
+}
+
+
+
+
+
+
+/* header css */
+
+.header-text{
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 29px;
+    line-height: 33px;
+    font-family: europhonic;
+}
+.header-text:hover{
+    color: white !important;
+}
+
+body{
+    background-color: #2C1F43;
+}
+
+.user-icon{
+    color: #5b5b5b !important;
+    background-color: #dfdfdf;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2.5rem;
+}
+.user-icon-mobile{
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    color: #5b5b5b !important;
+    background-color: #dfdfdf;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header-pages-text{
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: roboto-medium;
+    /* font: Medium 20px/26px Roboto; */
+}
+
+.header-ul{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-header{
+    width: 20%;
+    margin-right: 5px;
+}
+
+#desktop-navbar{
+    background: transparent linear-gradient(87deg, #4B09C0 0%, #FA21FD 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    opacity: 0.75;
+    z-index: 9;
+    top: 0px;
+}
+#mobile-navbar{
+    background: transparent linear-gradient(87deg, #4B09C0 0%, #FA21FD 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    opacity: 0.75;
+    z-index: 9;
+}
+#mobile-cross{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background: #202020 0% 0% no-repeat padding-box;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#drawer{
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: slideRight;
+    animation-name: slideRight;
+}
+@-webkit-keyframes slideRight {
+    0% {transform: translate(100%,0px);}
+    100% {transform: translate(0%,0px);}
+}
+@keyframes slideRight {
+    0% {transform: translate(100%,0px);}
+    100% {transform: translate(0px,0px);}
+}
+/* @keyframes slideRight {
+    0% {margin-right: -100%;}
+    100% {margin-right: 0%;}
+} */
+
+.dropdown-item:hover{
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+
+
+/* css for para and header tags */
+.para-roboto{
+    text-align: center;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: roboto-regular;
+    letter-spacing: 0;
+    opacity: 1;
+    margin: 0px;
+}
+
+.heading-europhonic{
+    text-align: center;
+    font-size: 84px;
+    line-height: 96px;
+    font-family: europhonic;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0px;
+}
+
+/* icons why svg */
+.why-svg{
+    height: 150px;
+    opacity: 1;
+}
+
+
+/* footer */
+
+.footer-text-heading{
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: europhonic;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.footer-text{
+    text-align: left;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: roboto-regular;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.card-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+

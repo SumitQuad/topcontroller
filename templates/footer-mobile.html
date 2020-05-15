@@ -1,0 +1,50 @@
+<div class="" style="background: transparent linear-gradient(90deg, #4B09C0 0%, #FA21FD 100%) 0% 0% no-repeat padding-box; width: 100%; height: 10px; margin-top: 60px;"></div>
+<footer style="background: #202020 0% 0% no-repeat padding-box;">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-4">
+                <div class="w-100 d-flex justify-content-center align-items-center" onclick="window.location = '/'">
+                    <img src="images/Top Controllers Logo.png" style="width: 60%;">
+                </div>
+                <h1 class="footer-text-heading mt-3" style="font-size: 12px;" onclick="window.location = '/'">The Top Controller</h1>
+                <div class="w-100 d-flex justify-content-center align-items-center">
+                    <img src="icons/iconfinder_06-facebook_104498.svg" style="height: 20px;" class="mr-3" onclick="window.open('https://www.facebook.com/top.contoller','_blank')">
+                    <img src="icons/iconfinder_38-instagram_1161953.svg" style="height: 20px;" onclick="window.open('https://www.instagram.com/top.controller','_blank')">>
+                </div>
+            </div>
+            <div class="col-4">
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = '/'">HOME</p>
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'witcher'">WITCHER</p>
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'pubg'">PUBG</p>
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'fortnite'">FORTNITE</p>
+            </div>
+            <div class="col-4">
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'pages/terms'">TERMS & CONDITIONS</p>
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'pages/privacy-policay'">PRIVACY POLICY</p>
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'pages/refund-policy'">REFUND POLICY</p>
+                <p class="footer-text font-weight-light" style="font-size: 10px;margin-bottom: 5px;" onclick="window.location = 'pages/new-cookies'">HELP & SUPPORT</p>
+            </div>
+            <!-- <div class="col-3">
+                <div class="w-100 h-100 d-flex justify-content-center align-items-center">
+                    <img src="icons/iconfinder_06-facebook_104498.svg" class="mr-3">
+                    <img src="icons/iconfinder_38-instagram_1161953.svg">
+                </div>
+            </div> -->
+        </div>
+        
+    </div>
+    <p class="text-white pb-3 w-100 text-center mb-0 font-weight-light" style="opacity: 0.7; font-size: 10px;">Copyright @ The Top Controller. Developed by <a href="https://www.quadbtech.com" class="text-white">QuadbTech</a></p>
+</footer>
+<script type="text/javascript">
+    $("#drawer").css('display','none');
+        $("#open-drawer").on("click",function(){
+            if($("#drawer").css('display') == 'none'){
+                $("#drawer").css('display','block');
+            } else{
+                $("#drawer").css('display','none');
+            }
+        });
+        $("#cross").on("click",function(){
+            $("#drawer").css('display','none');
+        });
+</script>
